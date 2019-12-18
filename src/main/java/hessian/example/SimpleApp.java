@@ -3,9 +3,9 @@ Schema:
   store      TEXT
   item       TEXT
   quantity   INT
-  order_time LONG
+  order_time BIGINT
 
-CREATE TABLE simpleapp.data(store TEXT, item TEXT, quantity INT, order_time LONG, PRIMARY KEY ((store), order_time));
+CREATE TABLE simpleapp.data(store TEXT, item TEXT, quantity INT, order_time BIGINT, PRIMARY KEY ((store), order_time));
  */
 
 package hessian.example;
