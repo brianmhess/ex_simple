@@ -21,16 +21,16 @@ CREATE TABLE IF NOT EXISTS simpleapp.data(store TEXT, item TEXT, quantity INT, o
 ## Running
 To run this app, run:
 ```
-java -jar /ex_simple-1.0-SNAPSHOT-jar-with-dependencies.jar <options>
+java -jar /ex_simple-1.1-SNAPSHOT-jar-with-dependencies.jar <options>
 ```
 
 For non-Apollo clusters, you should supply the following options:
 ```
-java -jar /ex_simple-1.0-SNAPSHOT-jar-with-dependencies.jar -u <username> -p <password> -h <host/IP> -d <datacenter>
+java -jar /ex_simple-1.1-SNAPSHOT-jar-with-dependencies.jar -u <username> -p <password> -h <host/IP> -d <datacenter>
 ```
 
 For Apollo clusters, download the creds.zip and then supply the following options:
 ```
-java -jar /ex_simple-1.0-SNAPSHOT-jar-with-dependencies.jar -u <username> -p <password> -c <path_to_creds.zip>
+java -jar /ex_simple-1.1-SNAPSHOT-jar-with-dependencies.jar -u <username> -p <password> -c <path_to_creds.zip>
 ```
 
